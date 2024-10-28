@@ -17,7 +17,6 @@ logging.basicConfig(
 )
 
 # Set console title (Windows-specific)
-ctypes.windll.kernel32.SetConsoleTitleW("Aleks Group Finder")
 
 # Group finder function with enhanced logging
 def groupfinder(hook, proxy):
